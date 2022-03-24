@@ -78,7 +78,7 @@ function App() {
         alt='Imagen criptomonedas'
       />
       <div>
-        <Heading>Cotiza Criptomonedas En Tiempo Real.</Heading>
+        <Heading>Cotiza Criptomonedas En Tiempo Real | Jupi.</Heading>
         <Formulario
           setMonedas={setMonedas}
           setMostrar={setMostrar}
