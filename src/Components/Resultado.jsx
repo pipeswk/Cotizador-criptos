@@ -47,7 +47,7 @@ const Resultado = ( { resultado, cripto } ) => {
         <Precio>💲 El precio es de: <span>{PRICE}</span></Precio>
         <Parrafo>📈 Precio mas alto del dia: <span>{HIGHDAY}</span></Parrafo>
         <Parrafo>📉 Precio mas bajo del dia: <span>{LOWDAY}</span></Parrafo>
-        <Parrafo>📊 Variacion Ultimas 24 horas: <span>{(CHANGEPCT24HOUR * 100).toFixed(2)}%</span></Parrafo>
+        <Parrafo>📊 Variacion Ultimas 24 horas: <span>{(CHANGEPCT24HOUR * 1).toFixed(2)}%</span></Parrafo>
         <Parrafo>💱 Ultima Actualización: <span>{LASTUPDATE}</span></Parrafo>
         </div>
     </Texto>
